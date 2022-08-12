@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -135,12 +134,14 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+.d-bloc a .icon-md{
+    color: rgba(0,0,0,0.6);
+}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -151,6 +152,9 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+.d-bloc a:hover .icon-md{
+    color: rgba(0,0,0,1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -738,7 +742,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.black{
+    color: #000000!important; 
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -778,14 +784,21 @@ h4 {
     color: #F3976C!important;
 }
 
+.tc-orange{
+    color: #F3A56C!important;
+}
+
+.tc-brown{
+    color: #5D382A!important;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
