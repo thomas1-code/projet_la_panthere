@@ -684,6 +684,18 @@ p {
     font-size: 12px;
 }
 
+.citation{
+    font-size: 22px;
+}
+
+.opinion{
+    font-size: 20px;
+    margin: 0;
+}
+
+.opinion-author{
+    font-size: 22px;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
